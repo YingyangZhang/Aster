@@ -40,7 +40,7 @@ export default function UserRequest({currentUser, setCurrentUser}) {
     }
 
     function handleCancel() {
-       fetch(`http://localhost:3000/requests/${currentUser.request.id}`, {
+       fetch(`https://aster-app.onrender.com/requests/${currentUser.request.id}`, {
         method: "DELETE",
         headers: {
             'content-type': "application/json",

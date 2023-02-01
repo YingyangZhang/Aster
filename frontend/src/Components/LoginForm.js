@@ -11,7 +11,7 @@ export default function LoginForm({setIsSignUpForm, popUpRef, setCurrentUser, se
     function handleLogin(e) {
         e.preventDefault();
 
-        fetch('http://localhost:3000/login', {
+        fetch('https://aster-app.onrender.com/login', {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json"

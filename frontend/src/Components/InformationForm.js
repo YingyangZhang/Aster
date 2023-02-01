@@ -50,7 +50,7 @@ export default function InformationForm({popUpRef, currentUser, setCurrentUser, 
     function handleSubmit(e) {
         e.preventDefault();
 
-        fetch(`http://localhost:3000/users/${currentUser.id}`, {
+        fetch(`https://aster-app.onrender.com/users/${currentUser.id}`, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json',

@@ -14,7 +14,7 @@ export default function Gallery() {
     let savedPage = parseInt(sessionStorage.getItem('myPage'))
 
     useEffect(() => {
-        fetch('http://localhost:3000/galleries')
+        fetch('https://aster-app.onrender.com/galleries')
         .then((r) => r.json())
         .then((data) => {
             setGallery(data);

@@ -16,7 +16,7 @@ function App() {
 
   useEffect(() => {
     if (token !== null) {
-      fetch("http://localhost:3000/me", {
+      fetch("https://aster-app.onrender.com/me", {
         method: "GET",
         headers: {
           Authorization: `Bearer ${token}`,

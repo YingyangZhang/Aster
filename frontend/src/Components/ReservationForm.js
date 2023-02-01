@@ -58,7 +58,7 @@ export default function ReservationForm({currentUser, setCurrentUser}) {
     function handleConfirm(e) {
         e.preventDefault();
 
-        fetch('http://localhost:3000/requests/', {
+        fetch('https://aster-app.onrender.com/requests/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

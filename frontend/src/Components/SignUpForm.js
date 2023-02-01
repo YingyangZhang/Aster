@@ -22,7 +22,7 @@ export default function SignUpForm({setIsSignUpForm, setIsInformationForm, popUp
     function handleSignUp(e) {
         e.preventDefault();
 
-        fetch('http://localhost:3000/users', {
+        fetch('https://aster-app.onrender.com/users', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
