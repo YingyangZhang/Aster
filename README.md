@@ -50,5 +50,9 @@ On the gallery page, users can view images of Mars.
 
 <img width="410" alt="Screen Shot 2023-01-19 at 2 08 28 PM" src="https://user-images.githubusercontent.com/104846791/216115744-afb8f032-779d-45bc-9839-33456d92f26c.png"> <img width="410" alt="Screen_Shot_2023-01-21_at_12 49 01_PM" src="https://user-images.githubusercontent.com/104846791/216115825-2f0a4e81-ba64-4526-86e9-8f71031134c6.png">
 
+### Credit
 
+<hr />
+
++ [Aster](https://github.com/YingyangZhang/Aster) web app by and [Yingyang Zhang](https://github.com/YingyangZhang)
 
