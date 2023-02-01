@@ -421,7 +421,7 @@ hr{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 80px;
-    row-gap: 100px;
+    row-gap: 90px;
     width: 100%;
 }
 
