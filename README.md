@@ -10,8 +10,7 @@ ASTER is a web application that allows users to request reservations for Mars tr
 
 <br />
 
-### Features<img width="1512" alt="Screen Shot 2023-01-19 at 2 09 32 PM" src="https://user-images.githubusercontent.com/104846791/216114326-6a162b54-9136-434e-842d-e4f72882d49c.png">
-
+### Features
 
 Users can create new accounts or login into their accounts. 
 
